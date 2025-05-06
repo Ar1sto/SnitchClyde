@@ -29,9 +29,7 @@ SnitchClyde is a lightweight bash-based exploit that leverages a subtle informat
 | ----------- | --------------------------------------------------------------------- |
 | `--token`   | *(Required)* Your Discord session token                               |
 | `--email`   | Check a single email address                                          |
-| `--list`    | Path to a file with emails/passwords in `email:password` format       |
-| `--dir`     | Directory containing multiple files to parse for matching emails      |
-| `--domain`  | Used with `--dir`, only emails matching this domain will be extracted |
+| `--list`    | Path to a file with emails                                            |
 | `--output`  | Save results to a CSV file                                            |
 | `--verbose` | Show unregistered emails in output                                    |
 | `--threads` | Number of concurrent threads for list checking (default: 1)           |

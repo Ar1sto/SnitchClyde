@@ -1,11 +1,11 @@
-# SnitchClyde 🕵️‍♂️  
+# SnitchClyde 
 _Discord Email Enumeration Exploit_
 
 SnitchClyde is a lightweight bash-based exploit that leverages a subtle information disclosure vulnerability in Discord's `/api/v9/users/@me` endpoint. By injecting a forged `email_token`, it triggers different server responses depending on whether the supplied email is already registered on Discord. This allows attackers to enumerate valid Discord-registered email addresses with high accuracy.
 
 ---
 
-## ⚙️ Features
+## Features
 
 - Detects if an email is already registered on Discord  
 - Works with a single email or a list of emails  
@@ -15,7 +15,7 @@ SnitchClyde is a lightweight bash-based exploit that leverages a subtle informat
 
 ---
 
-## 📦 Usage
+## Usage
 
 ```bash
 ./snitchclyde.sh --token AUTH_TOKEN [options]
@@ -23,7 +23,7 @@ SnitchClyde is a lightweight bash-based exploit that leverages a subtle informat
 
 ---
 
-## 🔧 Options
+## Options
 
 | Option      | Description                                                           |
 | ----------- | --------------------------------------------------------------------- |
